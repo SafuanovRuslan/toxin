@@ -1,7 +1,7 @@
 .header__wrapper
     height: 70px
     padding-top: 15px
-    padding-bottom: 15px 
+    padding-bottom: 15px
     display: flex
     justify-content: space-between
     align-items: center
@@ -11,10 +11,24 @@
     justify-content: space-between
     align-items: center
 
+.header-nav__list,
+.header-nav__dropdown
+    list-style-type: none
+
+.header-nav__list a,
+.header-nav__dropdown a
+    text-decoration: none
+    font-weight: 400
+    font-size: 14px
+    color: rgba(31, 32, 65, 0.5)
+
 .header-nav__list
     display: flex
     justify-content: space-between
     align-items: center
+
+.header-nav__list .nav-item:nth-child(n+2)
+    margin-left: 20px
 
 .dropdown-menu
     display: none
